@@ -80,7 +80,7 @@ class Input {
   }
 
   static get androidJavaSdkPath() {
-    return core.getInput('androidJavaSdkPath') || '';
+    return core.getInput('androidJavaJDKPath') || '';
   }
 
   static get allowDirtyBuild() {

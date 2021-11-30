@@ -141,7 +141,7 @@ unity-editor \
   -androidKeyaliasName "$ANDROID_KEYALIAS_NAME" \
   -androidKeyaliasPass "$ANDROID_KEYALIAS_PASS" \
   -androidTargetSdkVersion "$ANDROID_TARGET_SDK_VERSION" \
-  -androidJavaSdkPath "$ANDROID_JAVA_SDK_PATH" \
+  -androidJavaJDKPath "$ANDROID_JAVA_JDK_PATH" \
   $CUSTOM_PARAMETERS
 
 # Catch exit code

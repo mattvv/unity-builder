@@ -18,9 +18,9 @@ namespace UnityBuilderAction.Input
       if (options.TryGetValue("androidKeyaliasPass", out string keyaliasPass) && !string.IsNullOrEmpty(keyaliasPass))
         PlayerSettings.Android.keyaliasPass = keyaliasPass;
       if (options.TryGetValue("androidTargetSdkVersion", out string androidTargetSdkVersion) && !string.IsNullOrEmpty(androidTargetSdkVersion))
-        PlayerSettings.Android.targetSdkVersion = (AndroidSdkVersions) Enum.Parse(typeof(AndroidSdkVersions), androidTargetSdkVersion);
-      if (options.TryGetValue("androidJavaSdkPath", out string androidJavaSdkPath) && !string.IsNullOrEmpty(androidJavaSdkPath))
-        UnityEditor.Android.AndroidExternalToolsSettings.jdkRootPath = androidJavaSdkPath;
+        PlayerSettings.Android.targetSdkVersion = (AndroidSdkVersions) Enum.Parse(typeof(AndroidSdkVersions), androidJavaJDKPath);
+      if (options.TryGetValue("androidJavaJDKPath", out string androidJavaJDKPath) && !string.IsNullOrEmpty(androidJavaJDKPath))
+        UnityEditor.Android.AndroidExternalToolsSettings.jdkRootPath = androidJavaJDKPath;
     }
   }
 }
