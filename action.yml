@@ -102,6 +102,10 @@ inputs:
     required: false
     default: ''
     description: 'The android target API level.'
+  androidJavaJDKPath:
+    required: false
+    default: ''
+    description: 'Path to the JDK which is used when building Android applications.'
   customParameters:
     required: false
     default: ''

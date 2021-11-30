@@ -36,6 +36,7 @@ class Docker {
       androidKeyaliasName,
       androidKeyaliasPass,
       androidTargetSdkVersion,
+      androidJavaSdkPath,
       androidSdkManagerParameters,
       customParameters,
       sshAgent,
@@ -67,6 +68,7 @@ class Docker {
         --env ANDROID_KEYALIAS_NAME="${androidKeyaliasName}" \
         --env ANDROID_KEYALIAS_PASS="${androidKeyaliasPass}" \
         --env ANDROID_TARGET_SDK_VERSION="${androidTargetSdkVersion}" \
+        --env ANDROID_JAVA_SDK_PATH="${androidJavaSdkPath}" \
         --env ANDROID_SDK_MANAGER_PARAMETERS="${androidSdkManagerParameters}" \
         --env CUSTOM_PARAMETERS="${customParameters}" \
         --env CHOWN_FILES_TO="${chownFilesTo}" \

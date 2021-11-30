@@ -22,6 +22,7 @@ class BuildParameters {
   public androidKeyaliasName!: string;
   public androidKeyaliasPass!: string;
   public androidTargetSdkVersion!: string;
+  public androidJavaSdkPath!: string;
   public androidSdkManagerParameters!: string;
   public customParameters!: string;
   public sshAgent!: string;
@@ -66,6 +67,7 @@ class BuildParameters {
       androidKeyaliasName: Input.androidKeyaliasName,
       androidKeyaliasPass: Input.androidKeyaliasPass,
       androidTargetSdkVersion: Input.androidTargetSdkVersion,
+      androidJavaSdkPath: Input.androidJavaSdkPath,
       androidSdkManagerParameters,
       customParameters: Input.customParameters,
       sshAgent: Input.sshAgent,

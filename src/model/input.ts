@@ -79,6 +79,10 @@ class Input {
     return core.getInput('androidTargetSdkVersion') || '';
   }
 
+  static get androidJavaSdkPath() {
+    return core.getInput('androidJavaSdkPath') || '';
+  }
+
   static get allowDirtyBuild() {
     const input = core.getInput('allowDirtyBuild') || false;
 
