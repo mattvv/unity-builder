@@ -98,7 +98,7 @@ inputs:
     required: false
     default: ''
     description: 'The android keyaliasPass'
-  androidTargetSdkVersion:
+  androidJavaJDKPath:
     required: false
     default: ''
     description: 'The android target API level.'
