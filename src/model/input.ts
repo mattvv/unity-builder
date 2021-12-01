@@ -79,7 +79,7 @@ class Input {
     return core.getInput('androidTargetSdkVersion') || '';
   }
 
-  static get androidJavaSdkPath() {
+  static get androidJavaJDKPath() {
     return core.getInput('androidJavaJDKPath') || '';
   }
 
